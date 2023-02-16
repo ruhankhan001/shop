@@ -1,0 +1,171 @@
+li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+li{
+    margin-left: 30px;
+}
+li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+a:hover{
+    font-family: sans-serif;
+    /* opacity: 0.6; */
+    text-shadow: 0 0 10px #fff;
+    
+}
+
+.image10{
+    background-image: url(/css/tamanna-rumee-mIqyYpSNq3o-unsplash.jpg);
+    height: 212px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    filter: brightness(0.5);
+    border-radius: 5px;
+}
+
+.image10:hover{
+    transform:scale(0.9);
+    /* transform:rotate(360deg); */
+    /* transform: translate(120px,120px); */
+    /* transform: translatey(120px); */
+    transition: all 0.8s ease-in-out;
+    /* opacity: 0.7; */
+    filter: brightness(1);
+    text-shadow: 0 0 20px #fff;
+}
+.image11{
+    background-image: url(/css/lumensoft-technologies-wxRvOFBbM8o-unsplash.jpg);
+    height: 210px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    filter: brightness(0.5);
+    border-radius: 5px;
+}
+
+.image11:hover{
+    transform:scale(0.9);
+    /* transform:rotate(360deg); */
+    /* transform: translate(120px,120px); */
+    /* transform: translatey(120px); */
+    transition: all 0.8s ease-in-out;
+    /* opacity: 0.7; */
+    filter: brightness(1);
+    text-shadow: 0 0 20px blue;
+}
+.newimage1:hover{
+    transition:all 0.4s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.newimage1{
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: rgb(180, 246, 255,0.2);
+    transition:all 0.3s linear;
+    /* transform: rotate(10deg); */
+    cursor: pointer;
+}
+.card-body{
+    box-shadow: 0 5px 202px rgba(182, 182, 182, 0.7);
+    border-radius: 5px;
+    
+}
+
+.right1:hover{
+    box-shadow: 0 0 10px 7px rgba(206, 206, 206, 0.681);
+    transition: all 0.3s linear;
+    border-radius: 8px;
+}
+.right2:hover{
+    box-shadow: 0 0 10px 7px rgba(206, 206, 206, 0.681);
+    transition: all 0.3s linear;
+    border-radius: 8px;
+}
+.right3:hover{
+    box-shadow: 0 0 10px 7px rgba(206, 206, 206, 0.681);
+    transition: all 0.3s linear;
+    border-radius: 8px;
+}
+.right4:hover{
+    box-shadow: 0 0 10px 7px rgba(206, 206, 206, 0.681);
+    transition: all 0.3s linear;
+    border-radius: 8px;
+}
+
+.slider:hover{
+    opacity: 0.7;
+    transition: all 0.3s linear;
+}
+
+
+.card-body2:hover{
+    box-shadow: 0 0 15px rgba(31, 172, 248, 0.632);
+    transition: all 0.3s linear;
+    background-color: #fff;
+}
+
+.card-body2{
+    box-shadow: 0 0 10px rgba(208, 208, 208, 0.481);
+    background-color: #fff;
+}
+.text1:hover{
+    color: rgb(255, 255, 61);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.card-body2 img:hover{
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+.under1{
+    text-decoration: line-through;
+}
+
+.search{
+    position: absolute;
+    top: 70%;
+    margin-left: 200px;
+
+}
+
+.carousel h5{
+    font-size: 40px;
+}
+
+.home1{
+    box-shadow: 0 0  6px  rgba(188, 188, 188, 0.46);
+}
+
+.window:hover{
+    box-shadow: 0 0 10px rgba(202, 202, 202, 0.589);
+    cursor: pointer;
+}
+
+.carousel-item{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-body4{
+    box-shadow: 0 0 7px rgba(214, 214, 214, 0.629);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+body {
+    background: #eee;
+    font-family: Assistant, sans-serif
+}
+
+.external-link {
+  cursor: pointer;
+  color: blue;
+}
