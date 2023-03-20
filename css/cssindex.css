@@ -21,7 +21,7 @@ a:hover{
 }
 
 .image10{
-    background-image: url('../yoann-siloine-_T4w3JDm6ug-unsplash.jpg');
+    background-image: url('../css/tamanna-rumee-mIqyYpSNq3o-unsplash.jpg');
     height: 212px;
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -40,7 +40,7 @@ a:hover{
     text-shadow: 0 0 20px #fff;
 }
 .image11{
-    background-image: url('../css/scott-webb-bmmcfZqSjBU-unsplash.jpg');
+    background-image: url('../css/lumensoft-technologies-wxRvOFBbM8o-unsplash.jpg');
     height: 210px;
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -168,4 +168,61 @@ body {
 .external-link {
   cursor: pointer;
   color: blue;
+}
+.displynone{
+    display: none;
+}
+
+.displynone1{
+    display: none !important;
+}
+.loading2 {
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    /* margin-left: 500px; */
+    animation-name: rotate2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /* color: whitesmoke; */
+    text-align: center;
+    /* border-top: 1px solid #04043e; */
+    background: linear-gradient(45deg,transparent,transparent 40%,#e5f403);
+    /* background-color: whitesmoke; */
+}
+
+.loading2:before{
+    content:'';
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    left: 6px;
+    bottom: 6px;
+    background: white;
+    border-radius: 50%;
+    /* box-shadow: 0 0 2px #e5f403; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        /* transform: rotate(0deg); */
+        box-shadow: 0 0 4px rgb(241, 78, 78);
+
+    }
+    50% {
+        /* transform: rotate(0deg); */
+        box-shadow: 0 0 4px lightgreen;
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
